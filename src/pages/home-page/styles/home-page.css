@@ -105,7 +105,7 @@ div#home-page .homepage-block-component {
   grid-row-gap: 31px;
   grid-column-gap: 24px;
 }
-div#home-page .homepage-block-component div.homepage-block-component__box {
+div#home-page .homepage-block-component__box {
   width: 268px;
   height: 240px;
   background: #272d42;
@@ -113,36 +113,36 @@ div#home-page .homepage-block-component div.homepage-block-component__box {
   position: relative;
   text-align: center;
 }
-div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image {
+div#home-page .homepage-block-component__box-image {
   margin: 24px auto 16px auto;
   width: 64px;
   height: 64px;
   border-radius: 16px;
   position: relative;
 }
-div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image div.homepage-block-component__vector {
+div#home-page .homepage-block-component__box-image div.homepage-block-component__vector {
   position: absolute;
   width: 32px;
   height: 32px;
   left: 16px;
   top: 16px;
 }
-div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image div.homepage-block-component__vector img {
+div#home-page .homepage-block-component__box-image div.homepage-block-component__vector img {
   width: 32px;
 }
-div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image.sphere {
+div#home-page .homepage-block-component__box div.homepage-block-component__box-image.sphere {
   background: #373155;
 }
-div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image.rect {
+div#home-page .homepage-block-component__box div.homepage-block-component__box-image.rect {
   background: #2c3455;
 }
-div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image.vr {
+div#home-page .homepage-block-component__box div.homepage-block-component__box-image.vr {
   background: #274255;
 }
-div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image.ai {
+div#home-page .homepage-block-component__box div.homepage-block-component__box-image.ai {
   background: #3d413f;
 }
-div#home-page .homepage-block-component div.homepage-block-component__box p.homepage-block-component__title {
+div#home-page .homepage-block-component__box p.homepage-block-component__title {
   margin-bottom: 16px;
   font-family: "DM Sans";
   font-style: normal;
@@ -151,7 +151,7 @@ div#home-page .homepage-block-component div.homepage-block-component__box p.home
   line-height: 24px;
   color: #ffffff;
 }
-div#home-page .homepage-block-component div.homepage-block-component__box p.homepage-block-component__content {
+div#home-page .homepage-block-component__box p.homepage-block-component__content {
   margin-bottom: 24px;
   width: 236px;
   margin: 0 auto;
@@ -171,33 +171,33 @@ div#home-page .homepage-block-component div.homepage-block-component__box p.home
     height: 452px;
     width: 496px;
   }
-  div#home-page .homepage-block-component div.homepage-block-component__box {
+  div#home-page .homepage-block-component__box {
     width: 240px;
     max-height: 218px;
     border-radius: 20px;
   }
-  div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image {
+  div#home-page .homepage-block-component__box-image {
     margin: 20px auto 16px auto;
     width: 56px;
     height: 56px;
     border-radius: 14px;
   }
-  div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image div.homepage-block-component__vector {
+  div#home-page .homepage-block-component__box-image div.homepage-block-component__vector {
     width: 28px;
     height: 28px;
     left: 14px;
     top: 14px;
   }
-  div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image div.homepage-block-component__vector img {
+  div#home-page .homepage-block-component__box-image div.homepage-block-component__vector img {
     width: 28px;
   }
-  div#home-page .homepage-block-component div.homepage-block-component__box p {
+  div#home-page .homepage-block-component__box p {
     margin: 0;
   }
-  div#home-page .homepage-block-component div.homepage-block-component__box p.homepage-block-component__title {
+  div#home-page .homepage-block-component__box p.homepage-block-component__title {
     letter-spacing: 0.013em;
   }
-  div#home-page .homepage-block-component div.homepage-block-component__box p.homepage-block-component__content {
+  div#home-page .homepage-block-component__box p.homepage-block-component__content {
     width: 209px;
     font-size: 14px;
     line-height: 22px;
@@ -209,16 +209,16 @@ div#home-page .homepage-block-component div.homepage-block-component__box p.home
     width: 343px;
     height: 832px;
   }
-  div#home-page .homepage-block-component div.homepage-block-component__box {
+  div#home-page .homepage-block-component__box {
     height: 196px;
     width: 343px;
   }
-  div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image {
+  div#home-page .homepage-block-component__box-image {
     width: 56px;
     height: 56px;
     border-radius: 14px;
   }
-  div#home-page .homepage-block-component div.homepage-block-component__box p.homepage-block-component__content {
+  div#home-page .homepage-block-component__box p.homepage-block-component__content {
     width: 303px;
     font-size: 14px;
     line-height: 22px;

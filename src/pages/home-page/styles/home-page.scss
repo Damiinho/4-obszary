@@ -110,14 +110,14 @@ div#home-page {
     grid-row-gap: 31px;
     grid-column-gap: 24px;
 
-    div.homepage-block-component__box {
+    &__box {
       width: 268px;
       height: 240px;
       background: #272d42;
       border-radius: 24px;
       position: relative;
       text-align: center;
-      div.homepage-block-component__box-image {
+      &-image {
         margin: 24px auto 16px auto;
         width: 64px;
         height: 64px;
@@ -175,11 +175,11 @@ div#home-page {
       position: relative;
       height: 452px;
       width: 496px;
-      div.homepage-block-component__box {
+      &__box {
         width: 240px;
         max-height: 218px;
         border-radius: 20px;
-        div.homepage-block-component__box-image {
+        &-image {
           margin: 20px auto 16px auto;
           width: 56px;
           height: 56px;
@@ -212,10 +212,10 @@ div#home-page {
       width: 343px;
       height: 832px;
 
-      div.homepage-block-component__box {
+      &__box {
         height: 196px;
         width: 343px;
-        div.homepage-block-component__box-image {
+        &-image {
           width: 56px;
           height: 56px;
           border-radius: 14px;
