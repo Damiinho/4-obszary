@@ -120,14 +120,14 @@ div#home-page .homepage-block-component__box-image {
   border-radius: 16px;
   position: relative;
 }
-div#home-page .homepage-block-component__box-image div.homepage-block-component__vector {
+div#home-page .homepage-block-component__box-image-vector {
   position: absolute;
   width: 32px;
   height: 32px;
   left: 16px;
   top: 16px;
 }
-div#home-page .homepage-block-component__box-image div.homepage-block-component__vector img {
+div#home-page .homepage-block-component__box-image-vector img {
   width: 32px;
 }
 div#home-page .homepage-block-component__box div.homepage-block-component__box-image.sphere {
@@ -182,13 +182,13 @@ div#home-page .homepage-block-component__box p.homepage-block-component__content
     height: 56px;
     border-radius: 14px;
   }
-  div#home-page .homepage-block-component__box-image div.homepage-block-component__vector {
+  div#home-page .homepage-block-component__box-image-vector {
     width: 28px;
     height: 28px;
     left: 14px;
     top: 14px;
   }
-  div#home-page .homepage-block-component__box-image div.homepage-block-component__vector img {
+  div#home-page .homepage-block-component__box-image-vector img {
     width: 28px;
   }
   div#home-page .homepage-block-component__box p {
