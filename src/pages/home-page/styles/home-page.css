@@ -142,7 +142,7 @@ div#home-page .homepage-block-component__box div.homepage-block-component__box-i
 div#home-page .homepage-block-component__box div.homepage-block-component__box-image.ai {
   background: #3d413f;
 }
-div#home-page .homepage-block-component__box p.homepage-block-component__title {
+div#home-page .homepage-block-component__box-title {
   margin-bottom: 16px;
   font-family: "DM Sans";
   font-style: normal;
@@ -194,7 +194,7 @@ div#home-page .homepage-block-component__box p.homepage-block-component__content
   div#home-page .homepage-block-component__box p {
     margin: 0;
   }
-  div#home-page .homepage-block-component__box p.homepage-block-component__title {
+  div#home-page .homepage-block-component__box-title {
     letter-spacing: 0.013em;
   }
   div#home-page .homepage-block-component__box p.homepage-block-component__content {
