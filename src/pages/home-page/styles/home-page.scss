@@ -41,7 +41,7 @@ div#home-page {
   height: 100%;
   position: relative;
 
-  div {
+  &__main-block {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +52,7 @@ div#home-page {
     width: 467px;
     height: 232px;
 
-    h1 {
+    &-title {
       width: 467px;
       height: 112px;
 
@@ -65,7 +65,7 @@ div#home-page {
       color: #ffffff;
     }
 
-    p {
+    &-description {
       width: 467px;
       height: 96px;
 
@@ -83,33 +83,33 @@ div#home-page {
     width: 100%;
     display: block;
 
-    div {
+    &__main-block {
       display: block;
       width: 496px;
       height: 248px;
-      h1 {
+      &-title {
         width: 490px;
         margin-bottom: 16px;
       }
-      p {
+      &-description {
         width: 496px;
       }
     }
   }
   @media screen and (max-width: 580px) {
     height: 216px;
-    div {
+    &__main-block {
       position: relative;
       width: 343px;
       height: 216px;
 
-      h1 {
+      &-title {
         font-size: 32px;
         line-height: 40px;
         width: 343px;
         height: 80px;
       }
-      p {
+      &-description {
         width: 343px;
         height: 120px;
       }

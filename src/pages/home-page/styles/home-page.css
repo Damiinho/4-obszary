@@ -47,7 +47,7 @@ div#home-page {
   height: 100%;
   position: relative;
 }
-.homepage-description-component div {
+.homepage-description-component__main-block {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,7 +57,7 @@ div#home-page {
   width: 467px;
   height: 232px;
 }
-.homepage-description-component div h1 {
+.homepage-description-component__main-block-title {
   width: 467px;
   height: 112px;
   font-family: "DM Sans";
@@ -68,7 +68,7 @@ div#home-page {
   letter-spacing: 0.006em;
   color: #ffffff;
 }
-.homepage-description-component div p {
+.homepage-description-component__main-block-description {
   width: 467px;
   height: 96px;
   font-family: "DM Sans";
@@ -84,16 +84,16 @@ div#home-page {
     width: 100%;
     display: block;
   }
-  .homepage-description-component div {
+  .homepage-description-component__main-block {
     display: block;
     width: 496px;
     height: 248px;
   }
-  .homepage-description-component div h1 {
+  .homepage-description-component__main-block-title {
     width: 490px;
     margin-bottom: 16px;
   }
-  .homepage-description-component div p {
+  .homepage-description-component__main-block-description {
     width: 496px;
   }
 }
@@ -101,18 +101,18 @@ div#home-page {
   .homepage-description-component {
     height: 216px;
   }
-  .homepage-description-component div {
+  .homepage-description-component__main-block {
     position: relative;
     width: 343px;
     height: 216px;
   }
-  .homepage-description-component div h1 {
+  .homepage-description-component__main-block-title {
     font-size: 32px;
     line-height: 40px;
     width: 343px;
     height: 80px;
   }
-  .homepage-description-component div p {
+  .homepage-description-component__main-block-description {
     width: 343px;
     height: 120px;
   }
