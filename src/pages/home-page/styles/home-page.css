@@ -167,7 +167,7 @@ div#home-page {
 .homepage-block-component__box-image-vector img {
   width: 32px;
 }
-.homepage-block-component__box p.homepage-block-component__box-title {
+.homepage-block-component__box-title {
   margin-bottom: 16px;
   font-family: "DM Sans";
   font-style: normal;
@@ -176,7 +176,7 @@ div#home-page {
   line-height: 24px;
   color: #ffffff;
 }
-.homepage-block-component__box p.homepage-block-component__box-content {
+.homepage-block-component__box .homepage-block-component__box-content {
   margin-bottom: 24px;
   width: 236px;
   margin: 0 auto;
@@ -216,13 +216,10 @@ div#home-page {
   .homepage-block-component__box-image-vector img {
     width: 28px;
   }
-  .homepage-block-component__box p {
-    margin: 0;
-  }
-  .homepage-block-component__box p.homepage-block-component__box-title {
+  .homepage-block-component__box-title {
     letter-spacing: 0.013em;
   }
-  .homepage-block-component__box p.homepage-block-component__box-content {
+  .homepage-block-component__box .homepage-block-component__box-content {
     width: 209px;
     font-size: 14px;
     line-height: 22px;
@@ -243,7 +240,7 @@ div#home-page {
     height: 56px;
     border-radius: 14px;
   }
-  .homepage-block-component__box p.homepage-block-component__box-content {
+  .homepage-block-component__box .homepage-block-component__box-content {
     width: 303px;
     font-size: 14px;
     line-height: 22px;
