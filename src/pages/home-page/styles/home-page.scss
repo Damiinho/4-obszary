@@ -146,7 +146,7 @@ div#home-page {
       div.homepage-block-component__box-image.ai {
         background: #3d413f;
       }
-      p.homepage-block-component__title {
+      &-title {
         margin-bottom: 16px;
         font-family: "DM Sans";
         font-style: normal;
@@ -197,7 +197,7 @@ div#home-page {
         p {
           margin: 0;
         }
-        p.homepage-block-component__title {
+        &-title {
           letter-spacing: 0.013em;
         }
         p.homepage-block-component__content {
