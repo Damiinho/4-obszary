@@ -17,7 +17,7 @@ div#home-page {
   width: 1136px;
   height: 511px;
 
-  section.homepage-description-component {
+  .homepage-description-component {
     width: 50%;
     height: 100%;
     position: relative;
@@ -58,9 +58,47 @@ div#home-page {
         color: #ffffff;
       }
     }
+
+    @media screen and (max-width: 1170px) {
+      height: 248px;
+      width: 100%;
+      display: block;
+
+      div {
+        display: block;
+        width: 496px;
+        height: 248px;
+        h1 {
+          width: 490px;
+          margin-bottom: 16px;
+        }
+        p {
+          width: 496px;
+        }
+      }
+    }
+    @media screen and (max-width: 580px) {
+      height: 216px;
+      div {
+        position: relative;
+        width: 343px;
+        height: 216px;
+
+        h1 {
+          font-size: 32px;
+          line-height: 40px;
+          width: 343px;
+          height: 80px;
+        }
+        p {
+          width: 343px;
+          height: 120px;
+        }
+      }
+    }
   }
 
-  section.homepage-block-component {
+  .homepage-block-component {
     position: absolute;
     top: 0;
     right: 0px;
@@ -132,34 +170,7 @@ div#home-page {
         opacity: 0.5;
       }
     }
-  }
-}
-
-@media screen and (max-width: 1170px) {
-  div#home-page {
-    width: 496px;
-    height: 700px;
-    display: block;
-
-    section.homepage-description-component {
-      height: 248px;
-      width: 100%;
-      display: block;
-
-      div {
-        display: block;
-        width: 496px;
-        height: 248px;
-        h1 {
-          width: 490px;
-          margin-bottom: 16px;
-        }
-        p {
-          width: 496px;
-        }
-      }
-    }
-    section.homepage-block-component {
+    @media screen and (max-width: 1170px) {
       gap: 16px;
       position: relative;
       height: 452px;
@@ -196,37 +207,7 @@ div#home-page {
         }
       }
     }
-  }
-}
-@media screen and (max-width: 580px) {
-  div#home-page {
-    margin: 48px auto 60px auto;
-    max-width: 343px;
-    height: 1076px;
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
-    section.homepage-description-component {
-      height: 216px;
-      div {
-        position: relative;
-        width: 343px;
-        height: 216px;
-
-        h1 {
-          font-size: 32px;
-          line-height: 40px;
-          width: 343px;
-          height: 80px;
-        }
-        p {
-          width: 343px;
-          height: 120px;
-        }
-      }
-    }
-    section.homepage-block-component {
+    @media screen and (max-width: 580px) {
       margin-top: 28px;
       width: 343px;
       height: 832px;
@@ -247,10 +228,22 @@ div#home-page {
       }
     }
   }
-}
 
-@media screen and (max-width: 380px) {
-  div#home-page {
+  @media screen and (max-width: 1170px) {
+    width: 496px;
+    height: 700px;
+    display: block;
+  }
+  @media screen and (max-width: 580px) {
+    margin: 48px auto 60px auto;
+    max-width: 343px;
+    height: 1076px;
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+  }
+  @media screen and (max-width: 380px) {
     margin: 10px auto;
   }
 }

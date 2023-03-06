@@ -18,12 +18,12 @@ div#home-page {
   width: 1136px;
   height: 511px;
 }
-div#home-page section.homepage-description-component {
+div#home-page .homepage-description-component {
   width: 50%;
   height: 100%;
   position: relative;
 }
-div#home-page section.homepage-description-component div {
+div#home-page .homepage-description-component div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,7 +33,7 @@ div#home-page section.homepage-description-component div {
   width: 467px;
   height: 232px;
 }
-div#home-page section.homepage-description-component div h1 {
+div#home-page .homepage-description-component div h1 {
   width: 467px;
   height: 112px;
   font-family: "DM Sans";
@@ -44,7 +44,7 @@ div#home-page section.homepage-description-component div h1 {
   letter-spacing: 0.006em;
   color: #ffffff;
 }
-div#home-page section.homepage-description-component div p {
+div#home-page .homepage-description-component div p {
   width: 467px;
   height: 96px;
   font-family: "DM Sans";
@@ -54,7 +54,46 @@ div#home-page section.homepage-description-component div p {
   line-height: 24px;
   color: #ffffff;
 }
-div#home-page section.homepage-block-component {
+@media screen and (max-width: 1170px) {
+  div#home-page .homepage-description-component {
+    height: 248px;
+    width: 100%;
+    display: block;
+  }
+  div#home-page .homepage-description-component div {
+    display: block;
+    width: 496px;
+    height: 248px;
+  }
+  div#home-page .homepage-description-component div h1 {
+    width: 490px;
+    margin-bottom: 16px;
+  }
+  div#home-page .homepage-description-component div p {
+    width: 496px;
+  }
+}
+@media screen and (max-width: 580px) {
+  div#home-page .homepage-description-component {
+    height: 216px;
+  }
+  div#home-page .homepage-description-component div {
+    position: relative;
+    width: 343px;
+    height: 216px;
+  }
+  div#home-page .homepage-description-component div h1 {
+    font-size: 32px;
+    line-height: 40px;
+    width: 343px;
+    height: 80px;
+  }
+  div#home-page .homepage-description-component div p {
+    width: 343px;
+    height: 120px;
+  }
+}
+div#home-page .homepage-block-component {
   position: absolute;
   top: 0;
   right: 0px;
@@ -66,7 +105,7 @@ div#home-page section.homepage-block-component {
   grid-row-gap: 31px;
   grid-column-gap: 24px;
 }
-div#home-page section.homepage-block-component div.homepage-block-component__box {
+div#home-page .homepage-block-component div.homepage-block-component__box {
   width: 268px;
   height: 240px;
   background: #272d42;
@@ -74,36 +113,36 @@ div#home-page section.homepage-block-component div.homepage-block-component__box
   position: relative;
   text-align: center;
 }
-div#home-page section.homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image {
+div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image {
   margin: 24px auto 16px auto;
   width: 64px;
   height: 64px;
   border-radius: 16px;
   position: relative;
 }
-div#home-page section.homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image div.homepage-block-component__vector {
+div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image div.homepage-block-component__vector {
   position: absolute;
   width: 32px;
   height: 32px;
   left: 16px;
   top: 16px;
 }
-div#home-page section.homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image div.homepage-block-component__vector img {
+div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image div.homepage-block-component__vector img {
   width: 32px;
 }
-div#home-page section.homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image.sphere {
+div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image.sphere {
   background: #373155;
 }
-div#home-page section.homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image.rect {
+div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image.rect {
   background: #2c3455;
 }
-div#home-page section.homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image.vr {
+div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image.vr {
   background: #274255;
 }
-div#home-page section.homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image.ai {
+div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image.ai {
   background: #3d413f;
 }
-div#home-page section.homepage-block-component div.homepage-block-component__box p.homepage-block-component__title {
+div#home-page .homepage-block-component div.homepage-block-component__box p.homepage-block-component__title {
   margin-bottom: 16px;
   font-family: "DM Sans";
   font-style: normal;
@@ -112,7 +151,7 @@ div#home-page section.homepage-block-component div.homepage-block-component__box
   line-height: 24px;
   color: #ffffff;
 }
-div#home-page section.homepage-block-component div.homepage-block-component__box p.homepage-block-component__content {
+div#home-page .homepage-block-component div.homepage-block-component__box p.homepage-block-component__content {
   margin-bottom: 24px;
   width: 236px;
   margin: 0 auto;
@@ -125,66 +164,71 @@ div#home-page section.homepage-block-component div.homepage-block-component__box
   color: #ffffff;
   opacity: 0.5;
 }
-
 @media screen and (max-width: 1170px) {
-  div#home-page {
-    width: 496px;
-    height: 700px;
-    display: block;
-  }
-  div#home-page section.homepage-description-component {
-    height: 248px;
-    width: 100%;
-    display: block;
-  }
-  div#home-page section.homepage-description-component div {
-    display: block;
-    width: 496px;
-    height: 248px;
-  }
-  div#home-page section.homepage-description-component div h1 {
-    width: 490px;
-    margin-bottom: 16px;
-  }
-  div#home-page section.homepage-description-component div p {
-    width: 496px;
-  }
-  div#home-page section.homepage-block-component {
+  div#home-page .homepage-block-component {
     gap: 16px;
     position: relative;
     height: 452px;
     width: 496px;
   }
-  div#home-page section.homepage-block-component div.homepage-block-component__box {
+  div#home-page .homepage-block-component div.homepage-block-component__box {
     width: 240px;
     max-height: 218px;
     border-radius: 20px;
   }
-  div#home-page section.homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image {
+  div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image {
     margin: 20px auto 16px auto;
     width: 56px;
     height: 56px;
     border-radius: 14px;
   }
-  div#home-page section.homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image div.homepage-block-component__vector {
+  div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image div.homepage-block-component__vector {
     width: 28px;
     height: 28px;
     left: 14px;
     top: 14px;
   }
-  div#home-page section.homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image div.homepage-block-component__vector img {
+  div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image div.homepage-block-component__vector img {
     width: 28px;
   }
-  div#home-page section.homepage-block-component div.homepage-block-component__box p {
+  div#home-page .homepage-block-component div.homepage-block-component__box p {
     margin: 0;
   }
-  div#home-page section.homepage-block-component div.homepage-block-component__box p.homepage-block-component__title {
+  div#home-page .homepage-block-component div.homepage-block-component__box p.homepage-block-component__title {
     letter-spacing: 0.013em;
   }
-  div#home-page section.homepage-block-component div.homepage-block-component__box p.homepage-block-component__content {
+  div#home-page .homepage-block-component div.homepage-block-component__box p.homepage-block-component__content {
     width: 209px;
     font-size: 14px;
     line-height: 22px;
+  }
+}
+@media screen and (max-width: 580px) {
+  div#home-page .homepage-block-component {
+    margin-top: 28px;
+    width: 343px;
+    height: 832px;
+  }
+  div#home-page .homepage-block-component div.homepage-block-component__box {
+    height: 196px;
+    width: 343px;
+  }
+  div#home-page .homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+  }
+  div#home-page .homepage-block-component div.homepage-block-component__box p.homepage-block-component__content {
+    width: 303px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 1170px) {
+  div#home-page {
+    width: 496px;
+    height: 700px;
+    display: block;
   }
 }
 @media screen and (max-width: 580px) {
@@ -196,43 +240,6 @@ div#home-page section.homepage-block-component div.homepage-block-component__box
     top: auto;
     left: auto;
     transform: none;
-  }
-  div#home-page section.homepage-description-component {
-    height: 216px;
-  }
-  div#home-page section.homepage-description-component div {
-    position: relative;
-    width: 343px;
-    height: 216px;
-  }
-  div#home-page section.homepage-description-component div h1 {
-    font-size: 32px;
-    line-height: 40px;
-    width: 343px;
-    height: 80px;
-  }
-  div#home-page section.homepage-description-component div p {
-    width: 343px;
-    height: 120px;
-  }
-  div#home-page section.homepage-block-component {
-    margin-top: 28px;
-    width: 343px;
-    height: 832px;
-  }
-  div#home-page section.homepage-block-component div.homepage-block-component__box {
-    height: 196px;
-    width: 343px;
-  }
-  div#home-page section.homepage-block-component div.homepage-block-component__box div.homepage-block-component__box-image {
-    width: 56px;
-    height: 56px;
-    border-radius: 14px;
-  }
-  div#home-page section.homepage-block-component div.homepage-block-component__box p.homepage-block-component__content {
-    width: 303px;
-    font-size: 14px;
-    line-height: 22px;
   }
 }
 @media screen and (max-width: 380px) {
