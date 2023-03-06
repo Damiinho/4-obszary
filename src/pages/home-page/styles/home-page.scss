@@ -123,6 +123,18 @@ div#home-page {
         height: 64px;
         border-radius: 16px;
         position: relative;
+        &.sphere {
+          background: #373155;
+        }
+        &.rect {
+          background: #2c3455;
+        }
+        &.vr {
+          background: #274255;
+        }
+        &.ai {
+          background: #3d413f;
+        }
         &-vector {
           position: absolute;
           width: 32px;
@@ -134,18 +146,7 @@ div#home-page {
           }
         }
       }
-      div.homepage-block-component__box-image.sphere {
-        background: #373155;
-      }
-      div.homepage-block-component__box-image.rect {
-        background: #2c3455;
-      }
-      div.homepage-block-component__box-image.vr {
-        background: #274255;
-      }
-      div.homepage-block-component__box-image.ai {
-        background: #3d413f;
-      }
+
       &-title {
         margin-bottom: 16px;
         font-family: "DM Sans";

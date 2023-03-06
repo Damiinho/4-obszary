@@ -120,6 +120,18 @@ div#home-page .homepage-block-component__box-image {
   border-radius: 16px;
   position: relative;
 }
+div#home-page .homepage-block-component__box-image.sphere {
+  background: #373155;
+}
+div#home-page .homepage-block-component__box-image.rect {
+  background: #2c3455;
+}
+div#home-page .homepage-block-component__box-image.vr {
+  background: #274255;
+}
+div#home-page .homepage-block-component__box-image.ai {
+  background: #3d413f;
+}
 div#home-page .homepage-block-component__box-image-vector {
   position: absolute;
   width: 32px;
@@ -129,18 +141,6 @@ div#home-page .homepage-block-component__box-image-vector {
 }
 div#home-page .homepage-block-component__box-image-vector img {
   width: 32px;
-}
-div#home-page .homepage-block-component__box div.homepage-block-component__box-image.sphere {
-  background: #373155;
-}
-div#home-page .homepage-block-component__box div.homepage-block-component__box-image.rect {
-  background: #2c3455;
-}
-div#home-page .homepage-block-component__box div.homepage-block-component__box-image.vr {
-  background: #274255;
-}
-div#home-page .homepage-block-component__box div.homepage-block-component__box-image.ai {
-  background: #3d413f;
 }
 div#home-page .homepage-block-component__box-title {
   margin-bottom: 16px;
