@@ -1,3 +1,11 @@
+$phone: "screen and (max-width: 580px)";
+$tablet: "screen and (max-width: 1170px)";
+@mixin dmSansWhite {
+  font-family: "DM Sans";
+  font-style: normal;
+  color: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,12 +25,12 @@ div#home-page {
   width: 1136px;
   height: 511px;
 
-  @media screen and (max-width: 1170px) {
+  @media #{$tablet} {
     width: 496px;
     height: 700px;
     display: block;
   }
-  @media screen and (max-width: 580px) {
+  @media #{$phone} {
     margin: 48px auto 60px auto;
     max-width: 343px;
     height: 1076px;
@@ -39,7 +47,7 @@ div#home-page {
 .homepage-description-component {
   width: 50%;
   height: 100%;
-  position: relative;
+  $descriptionWidth: 467px;
 
   &__main-block {
     display: flex;
@@ -49,36 +57,30 @@ div#home-page {
     gap: 24px;
 
     position: absolute;
-    width: 467px;
+    width: $descriptionWidth;
     height: 232px;
 
     &-title {
-      width: 467px;
+      width: $descriptionWidth;
       height: 112px;
-
-      font-family: "DM Sans";
-      font-style: normal;
+      @include dmSansWhite;
       font-weight: 500;
       font-size: 48px;
       line-height: 56px;
       letter-spacing: 0.006em;
-      color: #ffffff;
     }
 
     &-description {
-      width: 467px;
+      width: $descriptionWidth;
       height: 96px;
-
-      font-family: "DM Sans";
-      font-style: normal;
+      @include dmSansWhite;
       font-weight: 400;
       font-size: 16px;
       line-height: 24px;
-      color: #ffffff;
     }
   }
 
-  @media screen and (max-width: 1170px) {
+  @media #{$tablet} {
     height: 248px;
     width: 100%;
     display: block;
@@ -96,21 +98,23 @@ div#home-page {
       }
     }
   }
-  @media screen and (max-width: 580px) {
+  @media #{$phone} {
     height: 216px;
+    $phoneDescriptionWidth: 343px;
+
     &__main-block {
       position: relative;
-      width: 343px;
+      width: $phoneDescriptionWidth;
       height: 216px;
 
       &-title {
         font-size: 32px;
         line-height: 40px;
-        width: 343px;
+        width: $phoneDescriptionWidth;
         height: 80px;
       }
       &-description {
-        width: 343px;
+        width: $phoneDescriptionWidth;
         height: 120px;
       }
     }
@@ -168,29 +172,25 @@ div#home-page {
 
     &-title {
       margin-bottom: 16px;
-      font-family: "DM Sans";
-      font-style: normal;
+      @include dmSansWhite;
       font-weight: 500;
       font-size: 20px;
       line-height: 24px;
-      color: #ffffff;
     }
 
     & &-content {
       margin-bottom: 24px;
       width: 236px;
       margin: 0 auto;
-      font-family: "DM Sans";
-      font-style: normal;
+      @include dmSansWhite;
       font-weight: 400;
       font-size: 16px;
       line-height: 24px;
       text-align: center;
-      color: #ffffff;
       opacity: 0.5;
     }
   }
-  @media screen and (max-width: 1170px) {
+  @media #{$tablet} {
     gap: 16px;
     position: relative;
     height: 452px;
@@ -224,7 +224,7 @@ div#home-page {
       }
     }
   }
-  @media screen and (max-width: 580px) {
+  @media #{$phone} {
     margin-top: 28px;
     width: 343px;
     height: 832px;
