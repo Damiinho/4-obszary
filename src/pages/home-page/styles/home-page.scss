@@ -1,3 +1,7 @@
+@import "fonts.css";
+@import "normalize.css";
+@import "root.css";
+
 $phone: "screen and (max-width: 580px)";
 $tablet: "screen and (max-width: 1170px)";
 @mixin dmSansWhite {
@@ -67,7 +71,7 @@ div#home-page {
       font-weight: 500;
       font-size: 48px;
       line-height: 56px;
-      letter-spacing: 0.006em;
+      letter-spacing: -0.002em;
     }
 
     &-description {
@@ -188,6 +192,7 @@ div#home-page {
       line-height: 24px;
       text-align: center;
       opacity: 0.5;
+      // letter-spacing: -0em;
     }
   }
   @media #{$tablet} {
@@ -215,7 +220,7 @@ div#home-page {
         }
       }
       &-title {
-        letter-spacing: 0.013em;
+        // letter-spacing: 0.013em;
       }
       & &-content {
         width: 209px;
@@ -230,6 +235,8 @@ div#home-page {
     height: 832px;
 
     &__box {
+      position: relative;
+
       height: 196px;
       width: 343px;
       &-image {
@@ -238,6 +245,7 @@ div#home-page {
         border-radius: 14px;
       }
       & &-content {
+        position: relative;
         width: 303px;
         font-size: 14px;
         line-height: 22px;
