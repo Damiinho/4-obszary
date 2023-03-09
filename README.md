@@ -1,4 +1,4 @@
-# 4-obszary
+# 4 areas of AI
 
 Prosty projekt odtwarzający 1:1 design z grafik poniżej:
 
