@@ -1,6 +1,4 @@
-@import "fonts.css";
-@import "normalize.css";
-@import "root.css";
+@import "style.css";
 * {
   margin: 0;
   padding: 0;
